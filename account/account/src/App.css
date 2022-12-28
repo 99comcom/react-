@@ -1,0 +1,45 @@
+.App {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.main_menu a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blue;
+}
+.main_menu a:hover{
+  color: green;
+}
+.sub_menu a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+button{
+  margin: 10px;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+
+.images .img{
+  margin:5px;
+  position:relative;
+}
+
+.images .img .del{
+  position:absolute;
+  top:-45px;
+  left:170px;
+  z-index:1000;
+  cursor: pointer;
+  color:red;
+  padding:0;
+
+}
